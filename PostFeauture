@@ -1,0 +1,13 @@
+@test
+Feature:
+  Verify POST operations using Rest-Assured
+
+  Scenario:
+  Post a new details
+
+    Given I perform POST request for "Profile"
+    When I perform a POST request with the name "Hassanine"
+    Then I should see the name "Hassanine"
+
+
+
