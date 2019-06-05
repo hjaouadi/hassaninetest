@@ -1,0 +1,10 @@
+@test
+Feature:
+  Verify different Delete operations using Rest-Assured
+
+  Scenario:
+  Delete
+
+    Given I perform Delete operation for "profile"
+    And I perform Delete for the post number "1"
+    Then I should see the status as "200"
